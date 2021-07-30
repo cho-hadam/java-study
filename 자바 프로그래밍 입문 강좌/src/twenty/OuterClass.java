@@ -1,10 +1,12 @@
+package twenty;
+
 public class OuterClass {
     int num = 10;
     String str1 = "java";
     static String str11 = "world";
 
     public OuterClass() {
-        System.out.println("OuterClass constructor");
+        System.out.println("twenty.OuterClass constructor");
     }
 
     class InnerClass {

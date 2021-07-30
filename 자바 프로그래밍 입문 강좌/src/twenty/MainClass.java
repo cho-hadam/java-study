@@ -1,3 +1,5 @@
+package twenty;
+
 public class MainClass {
     public static void main(String[] args) {
         OuterClass oc = new OuterClass();
@@ -20,12 +22,12 @@ public class MainClass {
 
         System.out.println();
 
-        // AnonymousClass
+        // twenty.AnonymousClass
         // 이름이 없는 클래스로 주로 메서드를 재정의 하는 목적으로 사용된다
         new AnonymousClass() {
             @Override
             public void method() {
-                System.out.println(" -- AnonymousClass's Override method START -- ");
+                System.out.println(" -- twenty.AnonymousClass's Override method START -- ");
             }
         }.method();
     }
