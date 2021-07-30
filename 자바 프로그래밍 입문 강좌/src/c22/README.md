@@ -35,5 +35,5 @@
 
 ## 예제
 
-MainClass 실행 결과
+MainClass 실행 결과   
 ![img.png](img.png)
