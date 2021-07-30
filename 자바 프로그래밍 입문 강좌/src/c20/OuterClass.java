@@ -1,4 +1,4 @@
-package twenty;
+package c20;
 
 public class OuterClass {
     int num = 10;
